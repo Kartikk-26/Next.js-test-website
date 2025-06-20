@@ -60,7 +60,7 @@ const SkillCube: React.FC<SkillCubeProps> = ({ icon, title, skills, delay }) => 
   );
 };
 
-const Skills: React.FC = () => {
+const Service: React.FC = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { once: false, amount: 0.1 });
   
@@ -114,7 +114,7 @@ const Skills: React.FC = () => {
 
   return (
     <section 
-      id="skills" 
+      id="service" 
       ref={sectionRef}
       className="py-20 relative overflow-hidden"
     >
@@ -149,4 +149,4 @@ const Skills: React.FC = () => {
   );
 };
 
-export default Skills;
+export default Service;

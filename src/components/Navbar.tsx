@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Moon, Sun, BrainCircuit } from 'lucide-react';
+import { Menu, X, Moon, Sun, BrainCircuit, Palette } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface NavbarProps {
@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Skills', href: '#skills' },
+    { name: 'Services', href: '#service' },
     //{ name: 'Experience', href: '#experience' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
@@ -53,8 +53,8 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <BrainCircuit className="h-8 w-8 text-primary-600" />
-            <span className="text-gradient">Kartik Jain</span>
+            <Palette className="h-8 w-8 text-primary-600" />
+            <span className="text-gradient">KamlaKriti</span>
           </motion.a>
 
           {/* Desktop Navigation */}

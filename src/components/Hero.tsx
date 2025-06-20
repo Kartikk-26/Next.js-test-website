@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
-import { Github, Linkedin, ArrowDown, MessageCircleCode } from 'lucide-react';
+import { Github, Linkedin, ArrowDown, MessageCircleCode, Instagram, MessageCircleMore } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold font-display mb-6">
               <span className="block">Hi, I'm</span>
-              <span className="text-gradient">Kartik Jain</span>
+              <span className="text-gradient">KamlaKriti</span>
             </h1>
           </motion.div>
           
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            ML, DL, Gen AI Enthusiast | Content Creator
+            Sketch Artist 🧑‍🎨 | Specializing in Hand-Drawn Portraits ✏️ 
           </motion.h2>
           
           <motion.div
@@ -78,20 +78,20 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <a 
-              href="https://github.com/hardik7863" 
+              href="https://wa.me/917906099183?text=Hi%21%20I%20just%20visited%20your%20website%20and%20wanted%20to%20connect." 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-100 dark:bg-dark-200 text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
             >
-              <MessageCircleCode size={20} />
+              <MessageCircleMore size={20} />
             </a>
             <a 
-              href="https://www.linkedin.com/in/hardik-batwal-888427239/" 
+              href="https://www.instagram.com/kamla_kriti?utm_source=qr&igsh=MmNxZGVjcHpxa2N6" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-gray-100 dark:bg-dark-200 text-gray-700 dark:text-gray-300 hover:bg-primary-100 dark:hover:bg-primary-900/30 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
             >
-              <Linkedin size={20} />
+              <Instagram size={20} />
             </a>
           </motion.div>
           
@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <a 
-              href="#skills" 
+              href="#projects" 
               className="inline-flex items-center justify-center px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-full transition-colors"
             >
               Explore My Work
