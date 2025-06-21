@@ -193,7 +193,8 @@ const Projects: React.FC = () => {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img 
                     src={project.image} 
-                    alt={project.title} 
+                    alt={project.title}
+                    loading="lazy" 
                     className="w-full h-full object-contain transition-transform duration-500 hover:scale-110"
                   />
                   <div className="absolute top-3 right-3 bg-primary-600 text-white text-xs font-bold px-2 py-1 rounded">
