@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
 const greetings = [
-  '. Hello', // English
-  '. Hola', // Spanish
-  '. Bonjour', // French
-  '. Hallo', // German
-  '. Ciao', // Italian
-  '. こんにちは', // Japanese
-  '. 안녕하세요', // Korean
-  '. 你好', // Chinese
-  '. Привет', // Russian
-  '. مرحبا', // Arabic
+  'Jai Hind!',
+  'Vande Mataram!',
+  'Bharat Mata Ki Jai!',
+  'Sare Jahan Se Achha!',
+  //'Inquilab Zindabad!',
+  //'🇮🇳 Desh Prem Zindabad!',
+  'Mera Bharat Mahan!',
+  //'🇮🇳 Shaheedon Ko Salaam!',
+  //'🇮🇳 Swatantrata Amar Rahe!',
+  //'🇮🇳 Jai Jawan Jai Kisan!',
 ];
 
 interface PreloaderProps {
@@ -23,12 +23,12 @@ const Preloader: React.FC<PreloaderProps> = ({ onLoadingComplete }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setGreetingIndex((prevIndex) => (prevIndex + 1) % greetings.length);
-    }, 100); // Change greeting every second
+    }, 150); // Change greeting every second
 
     // Simulate loading complete after 3 seconds
     const timeout = setTimeout(() => {
       onLoadingComplete();
-    }, 3000);
+    }, 1000);
 
     return () => {
       clearInterval(interval);

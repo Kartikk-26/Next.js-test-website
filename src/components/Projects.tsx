@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
     {
       title: "NvidiaNim",
       description: "A Streamlit application utilizing NVIDIA AI endpoints to analyze U.S. Census documents and respond to queries.",
-      image: "./testimage11.webp",
+      image: "/public/image01.jpg",
       technologies: ["Python", "Streamlit", "NVIDIA AI", "FastAPI"],
       category: "Gen AI",
       github: "https://github.com/hardik7863/NvidiaNim"
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
     {
       title: "BlogGenerationAWS",
       description: "An end-to-end Generative AI application that generates blog posts using AWS Bedrock, AWS Lambda, and Amazon S3.",
-      image: "https://tse4.mm.bing.net/th?id=OIP.6dYTtAjr65H5Yq5UyXVeywHaEE&pid=Api&P=0&h=180",
+      image: "/public/image02.jpg",
       technologies: ["Python", "AWS Lambda", "Amazon Bedrock", "Amazon S3", "API Gateway"],
       category: "Gen AI",
       github: "https://github.com/hardik7863/BlogGenerationAWS"
@@ -40,7 +40,7 @@ const Projects: React.FC = () => {
     {
       title: "AWS Bedrock Project",
       description: "A generative AI project leveraging AWS Bedrock to build and deploy machine learning models efficiently",
-      image: "https://external-preview.redd.it/amazon-titan-image-generator-multimodal-embeddings-and-text-v0-qhLSGsy8HWZa58LdwaxBVhDtUds3yWPZa5mr-BlQtp0.jpg?auto=webp&s=1dff6ff083dc0ab6106053003d8e7f1e6617d911",
+      image: "/public/image03.jpg",
       technologies: ["Python", "AWS Bedrock", "LangChain", "Streamlit"],
       category: "Gen AI",
       github: "https://github.com/hardik7863/AWSBedrock"
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
     {
       title: "End-to-End ML Project",
       description: "A comprehensive machine learning project demonstrating the entire workflow from data preprocessing to model deployment.",
-      image: "https://tse2.mm.bing.net/th?id=OIP.66xwQPBd_elRigZi-Uk5-wHaDU&pid=Api&P=0&h=180",
+      image: "/public/image04.jpg",
       technologies: ["Jupyter Notebook", "Python", "Machine Learning", "Model Deployment"],
       category: "ML",
       github: "https://github.com/hardik7863/MLProject"
@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
     {
       title: "NLP Text Summarizer",
       description: "A text summarization tool leveraging NLP techniques and deep learning models to generate concise summaries.",
-      image: "https://tse2.mm.bing.net/th?id=OIP.BWVilnEOOIgwq1qydj36TAHaEK&pid=Api",
+      image: "/public/image05.jpg",
       technologies: ["Python", "NLTK", "Transformers", "Flask"],
       category: "NLP",
       github: "https://github.com/hardik7863/NLPTextSummarizer"
@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
     {
       title: "Next Word Prediction",
       description: "A deep learning model that predicts the next word in a sentence using LSTM networks.",
-      image: "https://i.ytimg.com/vi/Zn22qt7j2dM/maxresdefault.jpg",
+      image: "/public/image06.jpg",
       technologies: ["Python", "LSTM", "Keras", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/NextWordPrediction"
@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
     {
       title: "Movie Sentiment Analysis",
       description: "A deep learning model that analyzes and classifies movie reviews based on sentiment using LSTM networks.",
-      image: "https://tse2.mm.bing.net/th?id=OIP.GRNwG60zEGAGWh6DbE-uagHaE6&pid=Api&P=0&h=180",
+      image: "/public/image07.jpg",
       technologies: ["Python", "LSTM", "Keras", "Flask", "NLTK"],
       category: "DL",
       github: "https://github.com/hardik7863/MovieSentimentAnaylsis"
@@ -80,11 +80,43 @@ const Projects: React.FC = () => {
     {
       title: "Customer Churn Predictor",
       description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "https://tse3.mm.bing.net/th?id=OIP.43V7Qmu04tyxko1021BSSQHaEK&pid=Api&P=0&h=180",
+      image: "/public/image08.jpg",
       technologies: ["Python", "ANN", "TensorFlow", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
-    }           
+    },
+    {
+      title: "Customer Churn Predictor",
+      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
+      image: "/public/image09.jpg",
+      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
+      category: "DL",
+      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
+    },
+    {
+      title: "Customer Churn Predictor",
+      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
+      image: "/public/image-10.jpg",
+      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
+      category: "DL",
+      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
+    },
+    {
+      title: "Customer Churn Predictor",
+      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
+      image: "/public/image-11.jpg",
+      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
+      category: "DL",
+      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
+    },
+    {
+      title: "Customer Churn Predictor",
+      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
+      image: "/public/image-12.jpg",
+      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
+      category: "DL",
+      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
+    }               
   ];
   
   const filteredProjects = activeCategory === 'All' 
@@ -157,18 +189,18 @@ const Projects: React.FC = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
             >
-              <div className="project-card-inner h-full bg-white dark:bg-dark-200 rounded-xl overflow-hidden card-shadow">
-                <div className="relative h-90 overflow-hidden">
+              <div className="project-card-inner flex flex-col bg-white dark:bg-dark-200 rounded-xl overflow-hidden card-shadow h-full">
+                <div className="relative aspect-[4/3] overflow-hidden">
                   <img 
                     src={project.image} 
                     alt={project.title} 
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                    className="w-full h-full object-contain transition-transform duration-500 hover:scale-110"
                   />
                   <div className="absolute top-3 right-3 bg-primary-600 text-white text-xs font-bold px-2 py-1 rounded">
                     {project.category}
                   </div>
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex flex-col justify-between flex-1">
                   <h3 className="text-xl font-bold font-display mb-2">{project.title}</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-6">
