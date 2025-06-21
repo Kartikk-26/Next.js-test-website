@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
     {
       title: "NvidiaNim",
       description: "A Streamlit application utilizing NVIDIA AI endpoints to analyze U.S. Census documents and respond to queries.",
-      image: "/public/image01.jpg",
+      image: "/image01.jpg",
       technologies: ["Python", "Streamlit", "NVIDIA AI", "FastAPI"],
       category: "Gen AI",
       github: "https://github.com/hardik7863/NvidiaNim"
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
     {
       title: "BlogGenerationAWS",
       description: "An end-to-end Generative AI application that generates blog posts using AWS Bedrock, AWS Lambda, and Amazon S3.",
-      image: "/public/image02.jpg",
+      image: "/image02.jpg",
       technologies: ["Python", "AWS Lambda", "Amazon Bedrock", "Amazon S3", "API Gateway"],
       category: "Gen AI",
       github: "https://github.com/hardik7863/BlogGenerationAWS"
@@ -40,7 +40,7 @@ const Projects: React.FC = () => {
     {
       title: "AWS Bedrock Project",
       description: "A generative AI project leveraging AWS Bedrock to build and deploy machine learning models efficiently",
-      image: "/public/image03.jpg",
+      image: "/image03.jpg",
       technologies: ["Python", "AWS Bedrock", "LangChain", "Streamlit"],
       category: "Gen AI",
       github: "https://github.com/hardik7863/AWSBedrock"
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
     {
       title: "End-to-End ML Project",
       description: "A comprehensive machine learning project demonstrating the entire workflow from data preprocessing to model deployment.",
-      image: "/public/image04.jpg",
+      image: "/image04.jpg",
       technologies: ["Jupyter Notebook", "Python", "Machine Learning", "Model Deployment"],
       category: "ML",
       github: "https://github.com/hardik7863/MLProject"
@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
     {
       title: "NLP Text Summarizer",
       description: "A text summarization tool leveraging NLP techniques and deep learning models to generate concise summaries.",
-      image: "/public/image05.jpg",
+      image: "/image05.jpg",
       technologies: ["Python", "NLTK", "Transformers", "Flask"],
       category: "NLP",
       github: "https://github.com/hardik7863/NLPTextSummarizer"
@@ -64,7 +64,7 @@ const Projects: React.FC = () => {
     {
       title: "Next Word Prediction",
       description: "A deep learning model that predicts the next word in a sentence using LSTM networks.",
-      image: "/public/image06.jpg",
+      image: "/image06.jpg",
       technologies: ["Python", "LSTM", "Keras", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/NextWordPrediction"
@@ -72,7 +72,7 @@ const Projects: React.FC = () => {
     {
       title: "Movie Sentiment Analysis",
       description: "A deep learning model that analyzes and classifies movie reviews based on sentiment using LSTM networks.",
-      image: "/public/image07.jpg",
+      image: "/image07.jpg",
       technologies: ["Python", "LSTM", "Keras", "Flask", "NLTK"],
       category: "DL",
       github: "https://github.com/hardik7863/MovieSentimentAnaylsis"
@@ -80,7 +80,7 @@ const Projects: React.FC = () => {
     {
       title: "Customer Churn Predictor",
       description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/public/image08.jpg",
+      image: "/image08.jpg",
       technologies: ["Python", "ANN", "TensorFlow", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
@@ -88,7 +88,7 @@ const Projects: React.FC = () => {
     {
       title: "Customer Churn Predictor",
       description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/public/image09.jpg",
+      image: "/image09.jpg",
       technologies: ["Python", "ANN", "TensorFlow", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
@@ -96,7 +96,7 @@ const Projects: React.FC = () => {
     {
       title: "Customer Churn Predictor",
       description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/public/image-10.jpg",
+      image: "/image-10.jpg",
       technologies: ["Python", "ANN", "TensorFlow", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
@@ -104,7 +104,7 @@ const Projects: React.FC = () => {
     {
       title: "Customer Churn Predictor",
       description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/public/image-11.jpg",
+      image: "/image-11.jpg",
       technologies: ["Python", "ANN", "TensorFlow", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
@@ -112,7 +112,7 @@ const Projects: React.FC = () => {
     {
       title: "Customer Churn Predictor",
       description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/public/image-12.jpg",
+      image: "/image-12.jpg",
       technologies: ["Python", "ANN", "TensorFlow", "Flask"],
       category: "DL",
       github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
