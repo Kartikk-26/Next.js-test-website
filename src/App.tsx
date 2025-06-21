@@ -13,25 +13,25 @@ import Certificate from './components/Certificate';
 // Example certificates data - replace with your actual certificates
 const certificates = [
   {
-    title: "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
-    issuer: "Oracle",
-    date: "February 2025",
-    credentialLink: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=9C43B4CBD8293B75158D8374318B9DF476E17D57C56E8BDC9C8B747FA4106764",
-    image: "https://techno-soft.com/wp-content/uploads/2018/10/oracle-certified-professional.jpg"
+    title: "Tribute to Kargil Hero Capt. Vijayant Thapar ",
+    issuer: "On Balidan Divas, I had the honor of presenting his portrait to his parents, Col. (Retd.) V.N. Thapar & Mrs. Tripta Thapar.",
+    date: "June 29, 2023",
+    credentialLink: "https://www.instagram.com/p/Cu1BakOR98G/?utm_source=ig_web_copy_link",
+    image: "/testimage3.jpg"
   },
   {
     title: "Oracle Cloud Infrastructure 2024 Data Certified Foundations Associate",
     issuer: "Oracle",
     date: "February 2025",
-    credentialLink: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=9C43B4CBD8293B75158D8374318B9DF450E1028B1BF5BF01FA5B356BB3003ADB",
-    image: "https://techno-soft.com/wp-content/uploads/2018/10/oracle-certified-professional.jpg"
+    credentialLink: "https://www.instagram.com/p/Ctu-ycxvDq5/?utm_source=ig_web_copy_link",
+    image: "/testimage1.jpg"
   },
   {
     title: "Oracle Cloud Infrastructure 2024 Certified AI Foundations Associate",
     issuer: "Oracle",
     date: "February 2025",
-    credentialLink: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=B3B21AD3D326ED2EE7829F8F8EE03A7D6D47BA196F600A672272444F9057AECF",
-    image: "https://techno-soft.com/wp-content/uploads/2018/10/oracle-certified-professional.jpg"
+    credentialLink: "https://www.instagram.com/p/Ctsoz9CxVs8/?utm_source=ig_web_copy_link",
+    image: "/e3.jpg"
   }
 ];
 

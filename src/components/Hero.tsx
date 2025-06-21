@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Sketch Artist 🧑‍🎨 | Specializing in Hand-Drawn Portraits ✏️ 
+            Portrait Sketch Artist 🧑‍🎨 | Each Portrait Tells a Story of Love & Legacy 🎖️ | Honoring Martyrs & My Mother 💐 | Customized Acrylics & Home Decor ✏️
           </motion.h2>
           
           <motion.div
