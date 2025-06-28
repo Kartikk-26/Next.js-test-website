@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { gsap } from 'gsap';
-import { Database, Server, Code, Brain, Cpu, MessageSquare, Sparkles, Settings, Cloud, Activity, Shuffle, Layers } from 'lucide-react';
+import { Database, Server, Code, Brain, Cpu, MessageSquare, Sparkles, Settings, Cloud, Activity, Shuffle, Layers , Palette , PencilRuler, Blend, SprayCan} from 'lucide-react';
 
 interface SkillCubeProps {
   icon: React.ReactNode;
@@ -66,45 +66,51 @@ const Service: React.FC = () => {
   
   const skillCategories = [
     {
-      icon: <Database size={32} />,
-      title: "Data Science & Analytics",
-      skills: ["Python", "SQL", "Pandas", "NumPy", "Feature Engineering", "EDA", "Data Cleaning", "Visualization (Matplotlib, Seaborn)"]
-    },
-    {
-      icon: <Server size={32} />,
-      title: "MLOps & DevOps",
-      skills: ["DVC", "MLflow", "Apache Airflow", "Docker", "Kubernetes", "Terraform", "CI/CD (GitHub Actions, Jenkins)"]
-    },
-    {
-      icon: <Brain size={32} />,
-      title: "Machine Learning",
-      skills: ["Scikit-learn", "XGBoost", "LightGBM", "Hyperparameter Tuning", "Model Evaluation"]
-    },
-    {
-      icon: <Cpu size={32} />,
-      title: "Deep Learning & Computer Vision",
-      skills: ["PyTorch", "TensorFlow", "CNN", "RNN", "Transformers", "Image Processing"]
-    },
-    {
-      icon: <MessageSquare size={32} />,
-      title: "Natural Language Processing",
-      skills: ["Text Processing", "Named Entity Recognition", "BERT", "Sentiment Analysis", "LLMs", "LangChain", "AutoGen"]
-    },
-    {
-      icon: <Sparkles size={32} />,
-      title: "Generative AI & LLMs",
-      skills: ["GPT Models", "RAG", "Fine-Tuning", "Agentic RAG", "CrewAI", "Diffusion Models", "Prompt Engineering"]
-    },
-    {
-      icon: <Cloud size={32} />,
-      title: "Cloud Computing",
-      skills: ["AWS (SageMaker, S3, EC2)", "GCP (Vertex AI)", "Azure", "Oracle Cloud"]
-    },
-    {
-      icon: <Activity size={32} />,
-      title: "Big Data & Streaming",
-      skills: ["Apache Kafka", "Spark Streaming", "Data Pipelines", "ETL"]
-    },
+  icon: <Palette size={32} />,
+  title: "Acrylic Portrait Painting",
+  skills: [
+    "Small: 30×25 cm (12×9 in) — ₹2200",
+    "Medium: 45×40 cm (17×15 in) — ₹2800",
+    "Large: 55×50 cm (21×19 in) — ₹4000",
+    "Custom from photo/reference",
+    "Varnished finish for durability",
+    "Ideal for gifts & home décor"
+  ]
+},
+{
+  icon: <SprayCan size={32} />,
+  title: "Lippan Art",
+  skills: [
+    "Traditional mud-mirror craft",
+    "Intricate handcrafted designs",
+    "Various sizes & colors",
+    "Ethnic charm for walls",
+    "Custom orders welcome"
+  ]
+},
+{
+  icon: <PencilRuler size={32} />,
+  title: "Wooden Art + Decorative Item",
+  skills: [
+    "Resin coasters & trays",
+    "Hand-painted wooden panels",
+    "Bottle & mirror décor",
+    "Rustic & modern fusion",
+    "Made-to-order for homes & cafés"
+  ]
+},
+{
+  icon: <Blend size={32} />,
+  title: "Pencil Sketch",
+  skills: [
+    "Realistic graphite sketches",
+    "Pet, solo, couple & family",
+    "High-quality textured paper",
+    "Framing options available",
+    "Custom from any photo"
+  ]
+},
+    
     // {
     //   icon: <Shuffle size={32} />,
     //   title: "Vector Databases & Retrieval",
@@ -129,7 +135,7 @@ const Service: React.FC = () => {
             My <span className="text-gradient">Skills</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Specialized in AI, Machine Learning, MLOps, and cloud-based solutions, with expertise in full-stack development and scalable architectures.
+            Specialized in acrylic portraits, Lippan art, wooden resin décor, and pencil sketches crafting high-quality, personalized artworks with creativity and care.
           </p>
         </motion.div>
         

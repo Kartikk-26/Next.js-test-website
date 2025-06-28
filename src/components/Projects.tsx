@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
       title: "NLP Text Summarizer",
       description: "A text summarization tool leveraging NLP techniques and deep learning models to generate concise summaries.",
       image: "/image05.jpg",
-      technologies: ["Python", "NLTK", "Transformers", "Flask"],
+      technologies: ["Cost : 4500$"],
       category: "NLP",
       github: "https://github.com/hardik7863/NLPTextSummarizer"
     },    
