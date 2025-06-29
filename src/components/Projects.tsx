@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { ExternalLink, Github, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ExternalLink, Github, ChevronLeft, ChevronRight, MessageCircleMore } from 'lucide-react';
 
 interface Project {
   title: string;
@@ -18,56 +18,56 @@ const Projects: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 6;
   
-  const categories = ['All', 'ML', 'DL', 'NLP', 'Gen AI'];
+  const categories = ['All', 'Acrylic', 'Portrait', 'Decorative', 'Gen AI'];
   
   const projects: Project[] = [
     {
-      title: "NvidiaNim",
-      description: "A Streamlit application utilizing NVIDIA AI endpoints to analyze U.S. Census documents and respond to queries.",
-      image: "/image01.jpg",
-      technologies: ["Python", "Streamlit", "NVIDIA AI", "FastAPI"],
-      category: "Gen AI",
-      github: "https://github.com/hardik7863/NvidiaNim"
-    },    
+  title: "Moonlit Bond – Textured Acrylic Portrait",
+  description: "A dreamy couple portrait with moon-textured background and soft varnish finish, painted to express deep love and connection.",
+  image: "/image01.jpg",
+  technologies: ["Acrylic", "Textured Art", "Canvas", "Varnish Finish", "Size: 55cm × 50cm", "Price: ₹4000"],
+  category: "Acrylic",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Moonlit%20Bond%20%E2%80%93%20Textured%20Acrylic%20Portrait.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Sketch of Honor – Textured Sketch Portrait",
+  description: "A sketch-style acrylic painting of an officer, highlighting pride, courage, and respect through bold textures.",
+  image: "/image02.jpg",
+  technologies: ["Acrylic", "Textured Art", "Sketch Style", "Canvas", "Medium Size", "Price: ₹2800"],
+  category: "Acrylic",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Sketch%20of%20Honor%20%E2%80%93%20Textured%20Sketch%20Portrait.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Acrylic Essence – Classic Medium Portrait",
+  description: "A peaceful and expressive portrait made with soft acrylic strokes, perfect for capturing calm emotions on canvas.",
+  image: "/image03.jpg",
+  technologies: ["Acrylic", "Canvas", "Medium Size", "Custom Portrait", "Price: ₹2800"],
+  category: "Acrylic",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Acrylic%20Essence%20%E2%80%93%20Classic%20Medium%20Portrait.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Capt. Shubham Gupta – Customized Canvas Portrait",
+  description: "A tribute painting of Captain Shubham Gupta, showing bravery and patriotism through powerful details and color.",
+  image: "/image04.jpg",
+  technologies: ["Acrylic", "Canvas", "Medium Size", "Custom Painting", "Price: ₹2800"],
+  category: "Portrait",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Capt.%20Shubham%20Gupta%20%E2%80%93%20Customized%20Canvas%20Portrait.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Lt. Gen. Y.K. Joshi – Small Canvas Portrait",
+  description: "A detailed small portrait of Lt. Gen. Y.K. Joshi, capturing honor, leadership, and legacy in a compact frame.",
+  image: "/image05.jpg",
+  technologies: ["Acrylic", "Canvas", "Small Size", "Custom Portrait", "Price: ₹2200"],
+  category: "Portrait",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Lt.%20Gen.%20Y.K.%20Joshi%20%E2%80%93%20Small%20Canvas%20Portrait.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},   
     {
-      title: "BlogGenerationAWS",
-      description: "An end-to-end Generative AI application that generates blog posts using AWS Bedrock, AWS Lambda, and Amazon S3.",
-      image: "/image02.jpg",
-      technologies: ["Python", "AWS Lambda", "Amazon Bedrock", "Amazon S3", "API Gateway"],
-      category: "Gen AI",
-      github: "https://github.com/hardik7863/BlogGenerationAWS"
-    },
-    {
-      title: "AWS Bedrock Project",
-      description: "A generative AI project leveraging AWS Bedrock to build and deploy machine learning models efficiently",
-      image: "/image03.jpg",
-      technologies: ["Python", "AWS Bedrock", "LangChain", "Streamlit"],
-      category: "Gen AI",
-      github: "https://github.com/hardik7863/AWSBedrock"
-    },    
-    {
-      title: "End-to-End ML Project",
-      description: "A comprehensive machine learning project demonstrating the entire workflow from data preprocessing to model deployment.",
-      image: "/image04.jpg",
-      technologies: ["Jupyter Notebook", "Python", "Machine Learning", "Model Deployment"],
-      category: "ML",
-      github: "https://github.com/hardik7863/MLProject"
-    }, 
-    {
-      title: "NLP Text Summarizer",
-      description: "A text summarization tool leveraging NLP techniques and deep learning models to generate concise summaries.",
-      image: "/image05.jpg",
-      technologies: ["Cost : 4500$"],
-      category: "NLP",
-      github: "https://github.com/hardik7863/NLPTextSummarizer"
-    },    
-    {
-      title: "Next Word Prediction",
-      description: "A deep learning model that predicts the next word in a sentence using LSTM networks.",
+      title: "Ocean Flow – Wooden Resin Artwork",
+      description: "A handcrafted 12-inch wooden resin artwork inspired by beach rain patterns. Designed with flowing textures and abstract charm.",
       image: "/image06.jpg",
-      technologies: ["Python", "LSTM", "Keras", "Flask"],
-      category: "DL",
-      github: "https://github.com/hardik7863/NextWordPrediction"
+      technologies: ["Wooden Base", "Resin Art", "12-inch", "Decorative Piece", "Beach Rain Pattern", "Sold Out", "Price: ₹2200"],
+      category: "Decorative",
+      github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Ocean%20Flow%20%E2%80%93%20Wooden%20Resin%20Artwork.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
     },
     {
       title: "Movie Sentiment Analysis",
@@ -221,8 +221,8 @@ const Projects: React.FC = () => {
                       rel="noopener noreferrer"
                       className="flex items-center justify-center px-4 py-2 bg-gray-100 dark:bg-dark-300 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-dark-400 transition-colors"
                     >
-                      <Github size={16} className="mr-2" />
-                      Code
+                      <MessageCircleMore  size={16} className="mr-2" />
+                      Order via WhatsApp
                     </a>
                   </div>
                 </div>
