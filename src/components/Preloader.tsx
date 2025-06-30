@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 const greetings = [
   'Jai Hind!',
   'Vande Mataram!',
-  'Bharat Mata Ki Jai!',
-  'Sare Jahan Se Achha!',
+  'Bharat Mata!',
+  'Hindustan Zindabad!',
   //'Inquilab Zindabad!',
   //'🇮🇳 Desh Prem Zindabad!',
   'Mera Bharat Mahan!',

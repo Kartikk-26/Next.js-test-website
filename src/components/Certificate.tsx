@@ -5,7 +5,7 @@ import { Award, ExternalLink } from 'lucide-react';
 interface Certificate {
   title: string;
   issuer: string;
-  date: string;
+  date: string[];
   credentialLink?: string;
   image?: string;
 }

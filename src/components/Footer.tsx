@@ -10,16 +10,19 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-6 md:mb-0">
             <BrainCircuit className="h-8 w-8 text-primary-600 mr-2" />
-            <span className="text-xl font-bold font-display text-gradient">Hardik Batwal</span>
+            <span className="text-xl font-bold font-display text-gradient">KamlaKriti</span>
           </div>
           
           <div className="text-center md:text-right">
             <p className="text-gray-600 dark:text-gray-400 mb-2">
-              &copy; {currentYear} Hardik Batwal. All rights reserved.
+              &copy; {currentYear} KamlaKriti. All rights reserved.
             </p>
             <p className="text-gray-500 dark:text-gray-500 text-sm flex items-center justify-center md:justify-end">
-              Made with <Heart size={14} className="mx-1 text-red-500" /> and React
-            </p>
+  Made with <Heart size={14} className="mx-1 text-red-500" /> and React by&nbsp;
+  <a href="https://www.linkedin.com/in/-kartikjain/" target="_blank" rel="noopener noreferrer">
+    Kartik Jain
+  </a>
+</p>
           </div>
         </div>
       </div>

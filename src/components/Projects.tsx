@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 6;
   
-  const categories = ['All', 'Acrylic', 'Portrait', 'Decorative', 'Gen AI'];
+  const categories = ['All', 'Acrylic', 'Portrait', 'Decorative', 'Bottle Art'];
   
   const projects: Project[] = [
     {
@@ -70,53 +70,54 @@ const Projects: React.FC = () => {
       github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Ocean%20Flow%20%E2%80%93%20Wooden%20Resin%20Artwork.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
     },
     {
-      title: "Movie Sentiment Analysis",
-      description: "A deep learning model that analyzes and classifies movie reviews based on sentiment using LSTM networks.",
-      image: "/image07.jpg",
-      technologies: ["Python", "LSTM", "Keras", "Flask", "NLTK"],
-      category: "DL",
-      github: "https://github.com/hardik7863/MovieSentimentAnaylsis"
-    },
-    {
-      title: "Customer Churn Predictor",
-      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/image08.jpg",
-      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
-      category: "DL",
-      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
-    },
-    {
-      title: "Customer Churn Predictor",
-      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/image09.jpg",
-      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
-      category: "DL",
-      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
-    },
-    {
-      title: "Customer Churn Predictor",
-      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/image-10.jpg",
-      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
-      category: "DL",
-      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
-    },
-    {
-      title: "Customer Churn Predictor",
-      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/image-11.jpg",
-      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
-      category: "DL",
-      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
-    },
-    {
-      title: "Customer Churn Predictor",
-      description: "A deep learning model that predicts customer churn based on historical data using artificial neural networks (ANN).",
-      image: "/image-12.jpg",
-      technologies: ["Python", "ANN", "TensorFlow", "Flask"],
-      category: "DL",
-      github: "https://github.com/hardik7863/Ann-Customer-Churn-Predictor"
-    }               
+  title: "Reflections of Elegance – Custom Mirror Art",
+  description: "A 12-inch decorative mirror artwork, customized with intricate detailing to elevate your home ambiance.",
+  image: "/image07.jpg",
+  technologies: ["Decorative Mirror", "Custom Design", "12-inch", "Wall Art", "Home Decor", "Price: ₹1800"],
+  category: "Decorative",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Reflections%20of%20Elegance%20%E2%80%93%20Custom%20Mirror%20Art.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Clay Charm – 3D Decorative Wall Art",
+  description: "A beautifully crafted 12-inch decorative wall piece with 3D clay work, adding vibrant texture and charm to any space.",
+  image: "/image08.jpg",
+  technologies: ["Decorative Art", "3D Clay Work", "12-inch", "Wall Decor", "Handmade Design", "Price: ₹2000"],
+  category: "Decorative",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Clay%20Charm%20%E2%80%93%203D%20Decorative%20Wall%20Art.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Couple Essence – Bottle Art Home Decor",
+  description: "A custom 3D bottle art piece representing couple aesthetics, designed for intimate and cozy home decoration.",
+  image: "/image09.jpg",
+  technologies: ["Home Decor", "3D Bottle Art", "Custom Design", "Couple Theme", "Decorative Bottle", "Price: ₹1500"],
+  category: "Bottle Art",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Couple%20Essence%20%E2%80%93%20Bottle%20Art%20Home%20Decor.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Dashavatara – Acrylic Portrait",
+  description: "A divine customized painting of Lord Vishnu's Dashavatara, rendered in acrylics with spiritual detail and reverence.",
+  image: "/image-10.jpg",
+  technologies: ["Acrylic", "Dashavatara Theme", "Custom Painting", "Religious Art", "Vishnu Portrait", "Price: ₹4500"],
+  category: "Acrylic",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Dashavatara%20%E2%80%93%20Vishnu%20Acrylic%20Portrait.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Couple Glow – 3D Bottle Art Decor",
+  description: "An artistic bottle couple decor piece customized for gifting or intimate home corners. A fusion of color and 3D elegance.",
+  image: "/image-11.jpg",
+  technologies: ["3D Bottle Art", "Home Decor", "Couple Theme", "Custom Design", "Decorative Bottle", "Price: ₹1500"],
+  category: "Bottle Art",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Couple%20Glow%20%E2%80%93%203D%20Bottle%20Art%20Decor.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
+{
+  title: "Lippan Grace – Wooden 3D Wall Art",
+  description: "A 12-inch handcrafted 3D Lippan artwork on a wooden base, ideal for traditional and modern interior decor.",
+  image: "/image-12.jpg",
+  technologies: ["3D Lippan Art", "Wooden Base", "12-inch", "Handcrafted", "Custom Design", "Price: ₹1800"],
+  category: "Decorative",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Lippan%20Grace%20%E2%80%93%20Wooden%203D%20Wall%20Art.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+}
+               
   ];
   
   const filteredProjects = activeCategory === 'All' 
