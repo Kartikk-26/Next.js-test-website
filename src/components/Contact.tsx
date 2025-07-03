@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    emailjs.send('service_d953ena', 'YOUR_TEMPLATE_ID', formData, 'YOUR_USER_ID')
+    emailjs.send('service_oc2e3c5', 'template_c1l2yuy', formData, 'xAGtenbxxIe1Qxzor')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setIsSubmitting(false);
