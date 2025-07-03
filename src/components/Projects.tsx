@@ -158,7 +158,7 @@ const Projects: React.FC = () => {
             My <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A showcase of my work in machine learning, deep learning, and generative AI.
+            A showcase of my work in acrylics, portraits, decorative designs, and bottle art.
           </p>
         </motion.div>
         
