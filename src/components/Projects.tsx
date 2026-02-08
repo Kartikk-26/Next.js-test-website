@@ -18,9 +18,17 @@ const Projects: React.FC = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const projectsPerPage = 6;
   
-  const categories = ['All', 'Acrylic', 'Portrait', 'Decorative', 'Bottle Art'];
+  const categories = ['All', 'Acrylic', 'Portrait', 'Decorative', 'Bottle Art', 'Canvas'];
   
   const projects: Project[] = [
+    {
+  title: "Gorakhnath Swaroop – Acrylic Canvas Masterpiece",
+  description: "This is a customized painting in 3.5×3 feet portrait on 5 feet canvas. It took me 66 hours to paint this artwork. This is Acrylic paintings on canvas with varnish proof quality. Gorakhnath swaroop of Mahadev.",
+  image: "/canvas.jpeg",
+  technologies: ["Acrylic", "Canvas", "Varnish Proof", "Size: 3.5×3 ft on 5 ft Canvas", "66 Hours", "Price: ₹15000"],
+  category: "Canvas",
+  github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20painting%20Gorakhnath%20Swaroop%20%E2%80%93%20Acrylic%20Canvas%20Masterpiece.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
+},
     {
   title: "Moonlit Bond – Textured Acrylic Portrait",
   description: "A dreamy couple portrait with moon-textured background and soft varnish finish, painted to express deep love and connection.",
@@ -117,7 +125,7 @@ const Projects: React.FC = () => {
   category: "Decorative",
   github: "https://wa.me/917906099183?text=Hi%2C%20I%20saw%20your%20portfolio%20and%20saw%20the%20sketch%20Lippan%20Grace%20%E2%80%93%20Wooden%203D%20Wall%20Art.%20I'm%20interested%20in%20placing%20an%20art%20order.%20Please%20guide%20me%20!"
 }
-               
+
   ];
   
   const filteredProjects = activeCategory === 'All' 
